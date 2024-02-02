@@ -26,7 +26,7 @@ async function DestinationPage()
                 <main className='pt-4'>
 
                     <div className={`text-[25px] tracking-[4.72px] px-28 mb-8 ${barlowCondensed.className}
-                                     dest-md:px-12 dest-md:mt-4 dest-md:mb-12 dest-md:text-[23px]
+                                     max-[1100px]:px-12 max-[1100px]:mt-4 max-[1100px]:mb-12 max-[1100px]:text-[23px]
                                      max-sm:text-base max-sm:px-0 max-sm:flex max-sm:justify-center max-sm:items-center max-sm:text-center
                                      max-sm:mb-8 max-sm:mt-0`}>
 

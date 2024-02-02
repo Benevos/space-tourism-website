@@ -30,7 +30,7 @@ function NavbarItem(props: NavbarItemProps)
                     <div className='absolute w-full h-1 opacity-0 bg-[rgba(255,255,255,0.5)] bottom-0 transition-all group-hover:opacity-100'/>
                 }
                 
-                <label className='font-bold pointer-events-none max-home-md:hidden'>{padIndex}</label>
+                <label className='font-bold pointer-events-none max-[1320px]:hidden'>{padIndex}</label>
                 <label className='pointer-events-none'>{title}</label>
             </Link> 
         </li>

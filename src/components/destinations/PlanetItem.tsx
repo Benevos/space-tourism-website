@@ -25,31 +25,31 @@ function PLanetItem(props: PlanetItemProps)
 
     return (
         <div className='w-full min-h-[500px] flex items-center justify-center gap-40
-                        dest-md:flex-col dest-md:justify-around
-                        dest-md:gap-0'>
+                        max-[1100px]:flex-col max-[1100px]:justify-around
+                        max-[1100px]:gap-0'>
 
             <div className='h-full flex items-center justify-center'>
                 <div className='w-[350px] h-[350px]
-                                max-[1100]:w-[280px] dest-md:h-[280px]
+                                max-[1100]:w-[280px] max-[1100px]:h-[280px]
                                 max-sm:w-[200px] max-sm:h-[200px]'>
                     <Image alt='planet.png' width={500} height={500} src={currentDestination.images.png}/>
                 </div>
             </div>
             
             <div className='w-[30%] 
-                            dest-md:w-[80%] dest-md: mt-8
+                            max-[1100px]:w-[80%] max-[1100px]: mt-8
                             max-sm:w-[90%] max-sm:px-5 max-sm:mt-4'>
                                 
                 <PlanetCarouselControllers destinations={destinations} currentDestination={currentDestination} slideIndex={slideIndex}/>
 
                 <h1 className={`text-[80px] ${bellefair.className}
-                                dest-md:text-center dest-md:w-full
+                                max-[1100px]:text-center max-[1100px]:w-full
                                 max-sm:text-[60px]`}>
                     {currentDestination.name.toLocaleUpperCase()}
                 </h1>
 
                 <p className='leading-7 text-[#D0D6F9]
-                              dest-md:text-center dest-md:w-full'>
+                              max-[1100px]:text-center max-[1100px]:w-full'>
                     {currentDestination.description}
                 </p>
 
@@ -59,16 +59,16 @@ function PLanetItem(props: PlanetItemProps)
                                 max-sm:flex-col max-sm:items-center max-sm:gap-7'>
 
                     <div className='w-1/2 
-                                    dest-md:w-full dest-md:flex dest-md:flex-col dest-md:items-center 
-                                    dest-md:text-center'>
+                                    max-[1100px]:w-full max-[1100px]:flex max-[1100px]:flex-col max-[1100px]:items-center 
+                                    max-[1100px]:text-center'>
 
                         <h2 className='text-[13px] tracking-[2.36px] text-[#D0D6F9]'>AVG. DISTANCE</h2>
                         <label className={`mt-1 text-[26px] ${bellefair.className}`}>{currentDestination.distance.toUpperCase()}</label>
                     </div>
 
                     <div className='w-1/2
-                                    dest-md:w-full dest-md:flex dest-md:flex-col dest-md:items-center
-                                    dest-md:text-center'>
+                                    max-[1100px]:w-full max-[1100px]:flex max-[1100px]:flex-col max-[1100px]:items-center
+                                    max-[1100px]:text-center'>
 
                         <h2 className='text-[13px] tracking-[2.36px] text-[#D0D6F9]'>EST. TRAVEL TIME</h2>
                         <label className={`mt-1 text-[26px] ${bellefair.className}`}>{currentDestination.travel.toUpperCase()}</label>
