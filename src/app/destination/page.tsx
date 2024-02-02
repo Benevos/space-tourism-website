@@ -6,6 +6,8 @@ import Header from '@/components/shared/Header/Header'
 import PlanetCarousel from '@/components/destinations/PlanetCarousel';
 import { promises as fs } from 'fs';
 import { DataJson } from '@/types/data';
+import MobileMenu from '@/components/shared/MobileMenu/MobileMenu';
+
 
 const barlowCondensed = Barlow_Condensed({ 
     weight:['100', '200', '300', '400', '500', '600', '700', '800', '900'],
@@ -20,8 +22,10 @@ async function DestinationPage()
 
     return (
         <div className='min-h-[100dvh] w-full flex justify-center destination-background'>
-            <div className='w-full max-w-[1536px] min-h-full'>
+            <div className='w-full max-w-[1536px] min-h-full relative'>
                 <Header/>
+
+                <MobileMenu/>
 
                 <main className='pt-4'>
 

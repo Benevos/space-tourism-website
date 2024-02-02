@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { Barlow } from "next/font/google";
 import "./globals.scss";
+import StoreProvider from "@/contexts/StoreProvider";
 
 const barlow = Barlow({ weight:['100', '200', '300', '400', '500', '600', '700', '800', '900'], subsets: ["latin"] });
 
@@ -16,7 +17,9 @@ export default function RootLayout({
 }>) {
   return (
     <html lang="en">
-      <body className={barlow.className}>{children}</body>
+      <StoreProvider>
+        <body className={`antialiased ${barlow.className}`}>{children}</body>
+      </StoreProvider>
     </html>
   );
 }

@@ -13,7 +13,7 @@ const barlowCondensed = Barlow_Condensed({
 function Explore() 
 {
     return (
-        <section className='h-[calc(100dvh-100px)] max-h-[1100px] flex items-center justify-center overflow-hidden
+        <main className='h-[calc(100dvh-100px)] max-h-[1100px] flex items-center justify-center overflow-hidden
                               max-home-md:min-h-[900px] max-home-md:h-[calc(100dvh-75px)]
                               max-sm:min-h-[500px]'>
 
@@ -44,7 +44,7 @@ function Explore()
             <ExploreButton/>
           </div>
 
-        </section>
+        </main>
     )
 }
 

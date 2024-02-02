@@ -12,7 +12,7 @@ const barlowCondensed = Barlow_Condensed({
 function Navbar() 
 {
     return (
-        <nav className={`pr-[10%] h-[65px] pl-[100px] glass ${barlowCondensed.className} z-[1]
+        <nav className={`pr-[10%] h-full pl-[100px] glass ${barlowCondensed.className} z-[1]
                            max-home-md:pl-[30px] max-home-md:pr-[50px]
                            max-sm:hidden`}>
             

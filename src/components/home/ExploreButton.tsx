@@ -14,6 +14,7 @@ function ExploreButton()
             <div 
             className='w-[250px] h-[250px] rounded-full absolute z-0 transition-all duration-700 ease-in-out bg-[rgba(255,255,255,0.2)]
                         group-hover:animate-in-and-out
+                        max-home-md:animate-in-and-out
                         max-sm:w-[150px] max-sm:h-[150px]'/>
 
             
