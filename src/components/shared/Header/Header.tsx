@@ -9,7 +9,7 @@ import Navbar from './Navbar/Navbar';
 function Header() {
     return (
         <header className='h-[75px] mt-[25px] flex items-center justify-between
-                           max-[1320px]:mt-0'>
+                           max-home-md:mt-0'>
             
           <button className='h-full  pl-[30px]'>
             <div className='w-[40px] h-[40px]'>
@@ -20,7 +20,7 @@ function Header() {
 
           <Navbar/>
 
-          <button className='hidden text-4xl pr-5 max-[640px]:inline'> 
+          <button className='hidden text-4xl pr-5 max-sm:inline'> 
             <HiMiniBars3/>
           </button>
           

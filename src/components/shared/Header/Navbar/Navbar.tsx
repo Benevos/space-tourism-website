@@ -13,11 +13,11 @@ function Navbar()
 {
     return (
         <nav className={`pr-[10%] h-[65px] pl-[100px] glass ${barlowCondensed.className} z-[1]
-                           max-[1320px]:pl-[30px] max-[1320px]:pr-[50px]
+                           max-home-md:pl-[30px] max-home-md:pr-[50px]
                            max-sm:hidden`}>
             
             <ul className='flex gap-12 h-full tracking-[2.7px] text-base
-                            max-[1320px]:gap-8'>
+                            max-home-md:gap-8'>
 
                 <NavbarItem title='HOME' index={0} expectedPathname='/'/>
                 <NavbarItem title='DESTINATION' index={1} expectedPathname='/destination'/>
