@@ -27,7 +27,7 @@ function PlanetCarouselControllers(props: PlanetCarouselControllersProps)
     return (
         <div className=''>
             <ul className={`flex gap-7 h-[53px] tracking-[2.7px] ${barlowCondensed.className}
-                            max-[1100px]:justify-center max-[1100px]:gap-8 max-[1100px]: mb-5
+                            dest-md:justify-center dest-md:gap-8 dest-md: mb-5
                             max-sm:gap-5 max-sm: mb-0`}>
 
                 {destinations.map((destination, index) => 
