@@ -1,6 +1,7 @@
 import Header from '@/components/shared/Header/Header';
 import Home from '@/components/home/Home';
 import MobileMenu from '@/components/shared/MobileMenu/MobileMenu';
+import WelcomeMessage from '@/components/shared/WelcomeMessage';
 
 export default function HomePage() 
 {
@@ -13,6 +14,7 @@ export default function HomePage()
         <MobileMenu/>
       
         <Home/>
+        <WelcomeMessage/>
       </div>
     </div>
   );
