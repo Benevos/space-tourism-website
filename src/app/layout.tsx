@@ -9,11 +9,20 @@ export const metadata: Metadata = {
   title: "Space Tourism - Benevos",
   description: 'This is a solution to the challenge "Space tourism multi-page website" found in "Frontend Mentor"',
   keywords: ['frontend', 'benevos', 'nextjs', 'react', 'tailwind', 'scss', 'swiper', 'mentor', 'space', 'torism', 'challenge'],
+  metadataBase: new URL('https://benevos-space-tourism.vercel.app'),
   openGraph: {
     title: "Space tourism by Benevos",
     description: 'This is a solution to the challenge "Space tourism multi-page website" found in "Frontend Mentor"',
     type: "website",
-    
+    url: "https://benevos-space-tourism.vercel.app/",
+    images: [
+      { 
+        url: '/icon.png',
+        width: '32',
+        height: '32',
+        alt: 'icon.png'
+      }
+    ]
   }
 };
 
