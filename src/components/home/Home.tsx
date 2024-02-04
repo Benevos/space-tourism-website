@@ -10,7 +10,7 @@ const barlowCondensed = Barlow_Condensed({
   subsets: ['latin'] 
 });
 
-function Explore() 
+function Home() 
 {
     return (
         <main className='h-[calc(100dvh-100px)] max-h-[1100px] flex items-center justify-center overflow-hidden
@@ -48,4 +48,4 @@ function Explore()
     )
 }
 
-export default Explore
+export default Home

@@ -15,6 +15,7 @@ html, body, :root
     background-color: #0B0D17;
 }
 
+@import 'swiper';
 
 .home-background {
     background-image: url("../assets/home/background-home-desktop.jpg");
@@ -42,6 +43,34 @@ html, body, :root
 
     @media (max-width: 425px) {
         background-image: url('../assets/destination/background-destination-mobile.jpg');
+    }
+}
+
+.crew-background {
+    background-image: url("../assets/crew/background-crew-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (max-width: 768px) {
+        background-image: url('../assets/crew/background-crew-tablet.jpg');
+    }
+
+    @media (max-width: 425px) {
+        background-image: url('../assets/crew/background-crew-mobile.jpg');
+    }
+}
+
+.technology-background {
+    background-image: url("../assets/technology/background-technology-desktop.jpg");
+    background-repeat: no-repeat;
+    background-size: cover;
+
+    @media (max-width: 768px) {
+        background-image: url('../assets/technology/background-technology-tablet.jpg');
+    }
+
+    @media (max-width: 425px) {
+        background-image: url('../assets/technology/background-technology-mobile.jpg');
     }
 }
 

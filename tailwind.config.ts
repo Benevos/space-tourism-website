@@ -23,6 +23,8 @@ const config = {
       screens: {
         "home-md": "1320px",
         "dest-md": "1100px",
+        "crew-md": "1150px",
+        "tech-md": "1260px"
       },
       backgroundImage: {
         "gradient-radial": "radial-gradient(var(--tw-gradient-stops))",

@@ -1,6 +1,6 @@
 import type { Metadata } from "next";
 import { Barlow } from "next/font/google";
-import "./globals.scss";
+import "../scss/globals.scss";
 import StoreProvider from "@/contexts/StoreProvider";
 
 const barlow = Barlow({ weight:['100', '200', '300', '400', '500', '600', '700', '800', '900'], subsets: ["latin"] });
